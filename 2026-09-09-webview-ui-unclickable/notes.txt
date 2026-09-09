@@ -1,0 +1,24 @@
+Wisp Science 1.10.0 / Windows 11 10.0.26200 x64
+Captured 2026-09-09 while the main window accepted no mouse clicks.
+
+Native window: Hung=False, Enabled=True, Visible=True
+Class: Tauri Window
+
+Processes:
+- wisp-tauri.exe PID 14260 ~335-363 MB Responding=True started 2026-09-09 14:46:04
+- msedgewebview2.exe renderer PID 3976 ~545 MB
+- msedgewebview2.exe host PID 75892 ~173-183 MB
+- 6x node figure-library 0.6.7
+- 6x zotero-mcp-server
+- ssh to remote host still alive after ConnectTimeout=10 (started 14:46:35)
+
+Logs:
+2026-09-09T06:46:04Z WARN windows_snap overlay was not installed label=main error=0x80070583
+2026-09-09T06:46:27Z WARN repaired unpaired tool_calls
+2026-09-09T06:49:19Z WARN LLM stream failed (attempt 1), retrying: api 524
+2026-09-09T07:24:00Z WARN LLM stream failed (attempt 1), retrying: api 524
+Repeated llm_request_dispatch: grok-4.6 and gpt-6-astra, OpenAI-compatible chat_completions, stream=true
+
+MCP App: ui://figure-library/candidates-v0.6.7.html in two sessions
+
+Not the cause: Task Manager row named like 03-diff_lefse_like.diff_res_pkg_G.png was Cursor, not Wisp
